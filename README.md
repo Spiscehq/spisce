@@ -1,111 +1,67 @@
-  # Spisce
+# Spisce 🪐
 
-  **AI Video Production, Organized**
+**Structure your boundless creativity.**
 
-  Spisce is a free, local-first desktop application that helps storytellers create AI-powered video series with clarity and confidence.
+The AI video space right now is built for dabblers. It’s endless tabs, "try this, try that," and scattered experiments. But what happens when you actually find a style that sticks? What happens when you want to turn your experiments into a repeatable series?
 
-  ---
+You hit the friction wall.
 
-  ## 🎬 What is Spisce?
+You *can* do it manually—we know, because we brute-forced our way to 1.5 million views across just 35 videos, and spent hours wrangling clunky Jupyter notebooks just to mass-produce real estate tours. But eventually, the million little frictions catch up to you. 
 
-  If you've tried creating AI video content at scale, you know the chaos: scattered prompts, lost versions, unclear costs, and hours wasted on sequential generation. Spisce solves this.
+It’s scrolling through endless folders to find that one character reference. It's losing context in playground tools. It's the pressure of feeling like you have to finish an episode in one sitting just so you don't lose your place. 
 
-  We built Spisce around a proven workflow that's generated **700K+ views**, transforming scattered processes into an organized, efficient production system.
+You don't stop creating because you run out of ideas. You stop creating because the process becomes a massive pain in the ass. 
 
-  **Designed for storytellers first, technologists second.**
+Spisce is a free, local-first desktop application built to solve our own problem. It eliminates that friction, turning a chaotic, duct-taped process into a **repeatable creative system**.
 
-  ---
+---
 
-  ## ✨ Key Features
+## 🌌 The Philosophy
 
-  - **🗂️  Intelligent Organization** - Project → Series → Episode hierarchy keeps everything structured
-  - **⚡ Batch Operations** - Generate 30 shots in 15 minutes instead of 3 hours
-  - **💰 Cost Tracking** - Estimate and track API costs before you spend
-  - **🎨 12 Integrated Tools** - From narrative planning to final assembly
-  - **🔒 Local-First** - Your data stays on your machine, no cloud lock-in
-  - **🆓 Completely Free** - No subscription, no hidden costs
+Spisce is built on a single, core idea: **Boundless creativity requires structure to be sustainable.** 
 
-  ---
+Without a system, imagination burns out on logistics. You shouldn't have to treat an 84-second video like a grueling, full-time job just to get it out the door. We built Spisce to handle the organization, the memory, and the repetitive tasks so you can get your time back, step away from the screen, and actually enjoy the process of creating again.
 
-  ## 🛠️  Built With
+---
 
-  - **Electron 27** + **Next.js 14** - Cross-platform desktop app
-  - **TypeScript** - Type-safe development
-  - **SQLite** + **LanceDB** - Local data storage with vector search
-  - **Cinema Suite UI** - Premium, faceted design system
+## 🎬 From Friction to Production
 
-  **Architecture:** Local-first, file-based projects with hidden metadata (like VS Code, CapCut)
+Spisce isn't a mass-content farm. It’s a production suite for creators who want to build a sustainable pipeline without the burnout.
 
-  ---
+- **🗂️ Contextual Organization:** Stop dreading your folder hierarchy. Group your work by Project → Series → Episode. Your characters, style, and lore are always preserved, so you can pick up exactly where you left off.
+- **⚡ Batch First:** Stop generating one-by-one. Queue up 30 shots and let them run in parallel while you do other things.
+- **💰 Cost Transparency:** Know exactly what your API calls (OpenAI, Anthropic, ElevenLabs, Fal.ai) will cost *before* you hit generate.
+- **🎨 Unified Workflow:** 12 integrated tools taking you from narrative concept to final assembly in one unified space. No more losing LLM contexts.
+- **🔒 Local-First:** Your data stays on your machine. No cloud lock-in, no monthly subscriptions.
 
-  ## 🚧 Development Status
+---
 
-  **Currently in active development** - Building toward v1.0 release
+## 🛠️ Tech Stack
 
-  **Completed:**
-  - ✅ Core project and series management
-  - ✅ Episode workflow system
-  - ✅ Database architecture
-  - ✅ Cinema Suite design system
+- **Framework:** Electron 27 + Next.js 14
+- **Language:** TypeScript
+- **Database:** SQLite + LanceDB (Local vector search)
+- **Design:** Cinema Suite UI
 
-  **In Progress:**
-  - 🚧 12 production tools (narrative, script, voice, image, video, timeline)
-  - 🚧 Batch operation system
-  - 🚧 Cost tracking implementation
+---
 
-  **Coming Soon:**
-  - 📦 First public release
-  - 📖 Documentation and guides
-  - 🎥 Demo videos
+## 📦 Repositories & Status
 
-  ---
+Spisce was built to scratch our own itch, and we are currently in heads-down development building toward v1.0. 
 
-  ## 📦 Repositories
+| Repository | Description | Status |
+|------------|-------------|--------|
+| **`spisce`** (this repo) | Organization profile and manifesto. | ✅ Active |
+| **`spisce-releases`** | App binaries, installers, and documentation. | 🚧 Coming Soon |
 
-  | Repository | Description | Status |
-  |------------|-------------|--------|
-  | **[spisce-releases](https://github.com/LanreDaDev/spisce-releases)** | Download releases, installers, documentation | 🔜 Coming Soon |
-  | **spisce** (this repo) | Organization profile and updates | ✅ Active |
+*(Note: The core engine is currently closed-source while we figure out what works best. The releases repo will go live the moment our first beta drops).*
 
-  **Note:** Source code is currently private during development. We may open source in the future.
+---
 
-  ---
+## 🔔 Stay in the Loop
 
-  ## 🎯 Philosophy
+If you're tired of the friction and want to see if our solution solves your problem too, **star this repository** to get notified the second we drop our first release.
 
-  1. **For Storytellers** - UI/UX optimized for creative workflow, not technical complexity
-  2. **API-First** - Designed for users with API keys (OpenAI, ElevenLabs, Fal.ai), not GPU hardware
-  3. **Batch-First** - Parallel operations are default, not optional
-  4. **Cost-Transparent** - Always show estimates before operations
-  5. **Local-First** - No cloud, no subscription, you control your data
-
-  ---
-
-  ## 🔔 Stay Updated
-
-  ⭐ **Star this repo** to get notified when we launch!
-
-  Follow development updates and release announcements.
-
-  ---
-
-  ## 💬 Contact
-
-  - **Issues/Questions:** [spisce-releases/issues](https://github.com/LanreDaDev/spisce-releases/issues)
-  - **Development Updates:** Watch this space
-
-  ---
-
-  ## 📄 License
-
-  Spisce binaries are free for personal and commercial use.
-
-  Source code is currently private.
-
-  ---
-
-  <p align="center">
-    <sub>Built with ❤️  for storytellers everywhere</sub>
-  </p>
-
-  ---
+<p align="center">
+  <sub>Built to remove the friction between your ideas and your audience.</sub>
+</p>
